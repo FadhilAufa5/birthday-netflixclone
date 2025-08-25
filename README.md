@@ -1,6 +1,6 @@
 # 🎉 Source Code Netflix Birthday 🎉
 
-### by Didin
+### by detoseto 
 
 Ini adalah panduan lengkap untuk mengakses dan menjalankan **Netflix Birthday** project, bahkan jika kamu belum pernah coding sebelumnya!
 
@@ -80,5 +80,3 @@ Setelah project selesai, kita perlu melakukan deploy agar project bisa diakses m
 15. ketik save dan sudah bisa di akses lagi
 
 ---
-
-Dengan mengikuti panduan di atas, siapapun bisa menjalankan **Netflix Birthday Project** tanpa perlu banyak pengetahuan coding! 🎉
