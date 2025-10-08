@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import heroImg from "./assets/pics/jara_landing.jpg";
+import heroImg from "./assets/pics/hero.jpg";
 import { Info } from "lucide-react";
 import { FaPlay } from "react-icons/fa6";
 import { useEffect, useState } from "react";
@@ -37,23 +37,24 @@ function App() {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="w-full max-w-screen-2xl px-5 lg:px-10 mb-[5%] flex flex-col gap-3 lg:gap-5 z-10 text-white ">
-          <h1
-            className="lg:text-4xl text-2xl font-bold lg:w-[50%]"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-           Happy Birthday,  Zahra Aulia.
-          </h1>
-          <p
-            className="text-sm lg:text-base lg:w-[40%]"
-            data-aos="fade-right"
-            data-aos-duration="1200"
-          >
-            Hari Special Sedunia!!!!!!!
-          </p>
-          <p data-aos="fade-right" data-aos-duration="1300">
-            Click "Play" to see Details
-          </p>
+        <h1
+          className="lg:text-4xl text-2xl font-bold lg:w-[50%]"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Happy Birthday, 표예진 !
+        </h1>
+        <p
+          className="text-sm lg:text-base lg:w-[40%]"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          The most special day in the world!!!
+        </p>
+        <p data-aos="fade-right" data-aos-duration="1300">
+          Click “Play” to see the details 🎬
+        </p>
+
           <div
             className="actions flex items-center gap-3"
             data-aos="fade-right"
@@ -72,7 +73,7 @@ function App() {
       </section>
       <section className="flex justify-center bg-black text-white">
         <div className="py-5 lg:py-10 flex flex-col gap-5 px-5 lg:px-10 max-w-screen-2xl">
-          <h3 className="font-semibold text-xl">More to Explore : Jara Album's</h3>
+          <h3 className="font-semibold text-xl">More to Explore : 표예진 Album's</h3>
           <section className=" grid grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-5">
             {images.map((image, idx) => (
               <CardImage src={image.src} key={idx} idx={idx} />
@@ -91,23 +92,30 @@ function App() {
           <div className="absolute inset-0 bg-gradient-to-t from-black" />
         </div>
         <div className="flex flex-col gap-3 lg:gap-5 p-5 text-white">
-          <h1 className="font-bold text-2xl">Happy Birthday, Zahra Aulia </h1>
-          <p>Hi Jaraaa..</p>
-          <p>
-            Assalamualaikum Wr.wb.. dengan menyebut asma allah yang maha pengasih lagi maha penyayang.. izin untuk mengetik kata-kata inii..
-            <br /> <br />Selamatt ulang tahun yang ke 19! ceilahh udah tuaa bett dahh,
-            maaf sebelumnya belum bisa ngasih yang disenengin hehehe, 
-            selamatt ulang tahunn yyaakkkk!! semoga panjang umur, sehat selaluu, dimudahkan rezekinya dan berbakti 
-            kepada kedua ortu, semoga yang disemogakan tersemoga yaa!! jangan bandel, kurangin begadang... pokoknyaa
-            yang terbaik buat zahra auliaaaaa, sekali lagi happy birthdayy sayangg!! On this special day, I just wanted to send a simple wish: May your path continue to be as beautiful as the person you are, 
-            and may this year bring even more joy, love, and success into your life. Lovee Uuuu
-          </p>
-          <p>
-            With all my love,
-            <br />
-            &copy; detooseto
-          </p>
-        </div>
+        <h1 className="font-bold text-2xl">Happy Birthday, Pyo Ye-jin 🎂</h1>
+        <p>Hi Ye-jin! 🌸</p>
+        <p>
+          Assalamualaikum Wr. Wb. <br />
+          In the name of Allah, the Most Gracious, the Most Merciful — please allow me to write these few heartfelt words for you.
+        </p>
+        <p>
+          Happy 23rd Birthday! 🎉 Wow, time really flies — you’re growing up so fast! <br />
+          I’m truly sorry I haven’t been able to give you something special yet, but still — happy, happy birthday!!
+        </p>
+        <p>
+          I wish you a long, healthy, and joyful life. May your journey always be filled with ease, success, and endless blessings. 
+          Never forget to cherish your parents, and may all your dreams and prayers come true, one by one.
+        </p>
+        <p>
+          Don’t be too mischievous, and please get enough rest 😜 Wishing you nothing but the very best, Pyo Ye-jin. <br />
+          Once again, happy birthday, my dear! On this special day, I just want to say — may your path continue to shine as brightly as your beautiful soul, 
+          and may this year bring you even more joy, love, and success. 💖
+        </p>
+        <p>
+          With all my love, <br />
+          &copy; detooseto
+        </p>
+      </div>
       </Modal>
     </main>
   );
